@@ -7,16 +7,20 @@ const styles = StyleSheet.create({
   },
   topBar: {
     width: "100%",
-    backgroundColor: "coral",
+    //   backgroundColor: "#1a1a1a",
+    flexDirection: 'row',
     alignItems: "center",
-    justifyContent: "center",
+    // justifyContent: "space-between",
     height: 100,
-    paddingTop: 38,
+      paddingTop: 38,
+    paddingHorizontal: 10
   },
-  logoText: {
+    logoText: {
+      flex: 1,
     fontSize: 35,
     fontWeight: 900,
-    color: "white",
+      color: "#1a1a1a",
+    marginLeft: 10
   },
   textArea: {
     marginVertical: 40,
@@ -34,12 +38,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingBottom: 13,
     borderRadius: 10,
-    backgroundColor: "coral",
+    backgroundColor: "#1a1a1a",
   },
   todo: {
-    margin: 10,
+    marginVertical: 10,
     padding: 10,
-    backgroundColor: "coral",
+    backgroundColor: "#1a1a1a",
     borderRadius: 5,
     width: 300,
     flexDirection: "row",

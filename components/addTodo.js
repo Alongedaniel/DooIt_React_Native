@@ -22,7 +22,7 @@ export default function AddTodos({ setTextInput, textInput, setTodos, todos }) {
         placeholder="e.g Buy Groceries"
         style={styles.textInput}
       />
-      <Button title="add Todo" onPress={handleAddTodos} color="coral" />
+      <Button title="add Todo" onPress={handleAddTodos} color="#1a1a1a" />
     </View>
   );
 }

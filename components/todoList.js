@@ -15,7 +15,7 @@ export default function TodoList({ setTodos, todos }) {
         data={todos}
         renderItem={({ item }) => (
           <View style={styles.todo}>
-            <MaterialIcons name="delete" size={18} color="#333" />
+            <MaterialIcons name="delete" size={18} color="#fafafa" />
             <Text
               style={styles.todoText}
               onPress={() => handleRemoveTodos(item.id)}
